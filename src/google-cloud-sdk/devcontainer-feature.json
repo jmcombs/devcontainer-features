@@ -1,7 +1,7 @@
 {
   "name": "google-cloud-sdk",
   "id": "google-cloud-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installs the Google Cloud SDK and (optional) additional components.",
   "options": {
     "gcloudExtraPackages": {
