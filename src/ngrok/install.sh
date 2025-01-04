@@ -46,7 +46,7 @@ AUTH_TOKEN=${AUTHTOKEN:-}
 
 configure_ngrok() {
     if [ -n "$AUTH_TOKEN" ]; then
-        ngrok config add-authtoken "$AUTH_TOKEN"
+        ngrok config add-authtoken ${AUTH_TOKEN}
     fi
 }
 
