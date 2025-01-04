@@ -1,7 +1,7 @@
 {
   "name": "ngrok",
   "id": "ngrok",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them.",
   "options": {
     "authtoken": {

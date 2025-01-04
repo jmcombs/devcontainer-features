@@ -12,6 +12,8 @@ source dev-container-features-test-lib
 # check <LABEL> <cmd> [args...]
 check "gcloud-cli installation" command -v gcloud
 check "gcloud-cli version" gcloud --version
+check "kubectl installation" command -v kubectl
+check "kubectl version" kubectl version --client
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.

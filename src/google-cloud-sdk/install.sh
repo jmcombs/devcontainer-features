@@ -8,6 +8,10 @@ apt-get update && apt-get install -y --no-install-recommends apt-transport-https
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
 
+# Extract gcloudExtraPackages from environment variables
+GCLOUD_EXTRA_PACKAGES=${GCLOUDEXTRAPACKAGES:-}
+GCLOUD_EXTRA_PACKAGES=$(echo $GCLOUD_EXTRA_PACKAGES | tr ',' ' ')
+
 # Check if the OS is Ubuntu 24.04 and the architecture is arm64, and exit with a message if true
 if [ -f /etc/os-release ]; then
     . /etc/os-release

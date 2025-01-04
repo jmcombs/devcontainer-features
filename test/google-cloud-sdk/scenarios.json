@@ -1,8 +1,10 @@
 {
-  "test": {
+  "gcloud-extra-packages": {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-      "google-cloud-sdk": {}
+      "google-cloud-sdk": {
+        "gcloudExtraPackages": "google-cloud-cli-app-engine-java , kubectl"
+      }
     }
   }
 }

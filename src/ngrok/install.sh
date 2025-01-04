@@ -41,9 +41,12 @@ install_ngrok() {
     && rm -f ngrok-v3-stable-linux-${ARCH}.tgz
 }
 
+# Extract authtoken from environment variables
+AUTH_TOKEN=${AUTHTOKEN:-}
+
 configure_ngrok() {
-    if [ -n "$NG_TOKEN" ]; then
-        ngrok config add-authtoken "$NG_TOKEN"
+    if [ -n "$AUTH_TOKEN" ]; then
+        ngrok config add-authtoken "$AUTH_TOKEN"
     fi
 }
 

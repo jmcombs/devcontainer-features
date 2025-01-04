@@ -1,13 +1,13 @@
 {
   "name": "google-cloud-sdk",
   "id": "google-cloud-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Installs the Google Cloud SDK and (optional) additional components.",
   "options": {
     "gcloudExtraPackages": {
       "type": "string",
       "default": "",
-      "description": "Comma-separated list of additional Google Cloud SDK components to install. Example: `google-cloud-cli-app-engine-java`"
+      "description": "Comma-separated list of additional Google Cloud SDK components to install. Example: `google-cloud-cli-app-engine-java,kubectl`"
     }
   },
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
