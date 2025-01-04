@@ -1,15 +1,7 @@
 {
   "name": "ngrok",
   "id": "ngrok",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them.",
-  "options": {
-    "authtoken": {
-      "type": "string",
-      "proposals": [],
-      "default": "",
-      "description": "Connect ngrok to your account by providing your `authtoken`"
-    }
-  },
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
