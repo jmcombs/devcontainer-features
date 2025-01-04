@@ -8,7 +8,7 @@
 
 The `google-cloud-sdk` feature installs the Google Cloud SDK and optional additional components.
 
-**NOTE:** Ubuntu 24.04 is currently **not** supported by this feature due to an issue with the `apt` package manager. The issue is being tracked [here]() and will be resolved once a fix is available.
+**NOTE:** If using Ubuntu 24.04 on `arm64` [Google Cloud SDK Issue 383568269](https://issuetracker.google.com/issues/383568269) is currently being worked on to resolve the issue. Until resolved, version 502.0.0-0 will be installed.
 
 ### ngrok
 
