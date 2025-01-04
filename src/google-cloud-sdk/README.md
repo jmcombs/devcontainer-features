@@ -15,7 +15,7 @@ Installs the Google Cloud SDK and (optional) additional components.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| gcloudExtraPackages | Comma-separated list of additional Google Cloud SDK components to install. Example: `google-cloud-cli-app-engine-java` | string | - |
+| gcloudExtraPackages | Comma-separated list of additional Google Cloud SDK components to install. Example: `google-cloud-cli-app-engine-java,kubectl` | string | - |
 
 
 
