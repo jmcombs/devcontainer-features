@@ -17,6 +17,10 @@ Installs the Google Cloud SDK and (optional) additional components.
 |-----|-----|-----|-----|
 | gcloudExtraPackages | Comma-separated list of additional Google Cloud SDK components to install. Example: `google-cloud-cli-app-engine-java,kubectl` | string | - |
 
+## OS & Architecture Support
+
+- Debian/Ubuntu Linux distributions with the `apt` package manager.
+- `amd64`, `arm64`, and `arm/v7` architectures are supported.
 
 
 ---
