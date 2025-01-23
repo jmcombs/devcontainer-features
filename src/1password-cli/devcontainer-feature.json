@@ -1,0 +1,7 @@
+{
+  "name": "1password-cli",
+  "id": "1password-cli",
+  "version": "1.0.0",
+  "description": "Installs the 1Password CLI inside of your devcontainer. You can also pass in a 1Password token to authenticate with 1Password.",
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

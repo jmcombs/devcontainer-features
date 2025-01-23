@@ -1,0 +1,13 @@
+{
+  "1password-variable-test": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "1password-cli": {}
+    },
+    "containerEnv": {
+      "OP_SERVICE_ACCOUNT_TOKEN": "thisismyserviceaccount",
+      "OP_CONNECT_HOST": "thisismyconnecthost",
+      "OP_CONNECT_TOKEN": "thisismyconnecttoken"
+    }
+  }
+}
