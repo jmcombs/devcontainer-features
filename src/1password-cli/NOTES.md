@@ -21,9 +21,7 @@ Both require using environment variables. The following are examples of how to s
 },
 ...
 "containerEnv": {
-    "OP_SERVICE_ACCOUNT_TOKEN": "thisismyserviceaccount",
-    "OP_CONNECT_HOST": "thisismyconnecthost",
-    "OP_CONNECT_TOKEN": "thisismyconnecttoken"
+    "OP_SERVICE_ACCOUNT_TOKEN": "thisismyserviceaccount"
 }
 ```
 

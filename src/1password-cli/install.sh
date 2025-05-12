@@ -47,6 +47,6 @@ set_op_service_account_token() {
     export $OP_SERVICE_ACCOUNT_TOKEN
 }
 
-check_dependencies curl ca-certificates
+check_dependencies curl ca-certificates gpg
 install_1pcli
 set_op_service_account_token
